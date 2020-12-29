@@ -36,7 +36,7 @@ class DataValidator
         status.append(phone_num_check(data_array[3]))
 
         status.append(CountryChecker.check(data_array[4]))
-        p status
+        
         not status.include?(false)
     end
 end
